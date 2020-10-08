@@ -7,8 +7,4 @@ urlpatterns = [
     path('tasks/update/<int:id>',
          views.TaskUpdate.as_view(), name="task-update"),
     path('tasks/delete/<int:id>',
-         views.TaskDelete.as_view(), name="task-delete"),
-
-
-
-]
+         views.TaskDelete.as_view(), name="task-delete")]
