@@ -6,7 +6,8 @@ from rest_framework.response import Response
 from .serializers import TaskSerializer
 from rest_framework.views import APIView
 from .models import Task
-from rest_framework.generics import ListAPIView, RetrieveUpdateDestroyAPIView, CreateAPIView, DestroyAPIView, UpdateAPIView
+from rest_framework.generics import ListAPIView, RetrieveUpdateDestroyAPIView,
+CreateAPIView, DestroyAPIView, UpdateAPIView
 
 
 class TaskList(ListAPIView):
